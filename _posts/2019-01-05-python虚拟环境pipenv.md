@@ -3,11 +3,16 @@
 
  具体来说，它是pip、Pipfile、Virtualenv的结合体，它让安装包、包依赖管理和虚拟环境管理更加方便。
 ### 2.基本命令
- 安装：pip install pipenv
- 查看是否安装成功：pipenv --version
- 启动虚拟化环境：pipenv shell （命令行前有虚拟环境名说明添加成功）
- 退出：exit
- 查看当前项目依赖包：pipenv list
+ ###### 安装：
+ pip install pipenv
+ ###### 查看是否安装成功：
+ pipenv --version
+ ###### 启动虚拟化环境：
+ pipenv shell （命令行前有虚拟环境名说明添加成功）
+ ###### 退出：
+ exit
+ ###### 查看当前项目依赖包：
+ pipenv list
 ### 3. 管理依赖包
 一个程序通常会使用很多的Python包，即依赖（dependency）。而程序不仅仅会在一台电脑上运行，程序部署上线时，需要安装到远程服务器上。
 
