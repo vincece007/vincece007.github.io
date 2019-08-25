@@ -12,8 +12,8 @@ MJ Blog ->
 ###### page制作参考qiubaiying原件READEME.md
 
 ```py
-   def(learn):
-       now = {'future'}
+   def future(learn):
+       now = {'...'}
        you = []
        if learn in now:
            you.append(learn)
