@@ -13,7 +13,7 @@ MJ Blog ->
 
 ```py
    def(learn):
-       now = {'konwledge'}
+       now = {'future'}
        you = []
        if learn in now:
            you.append(learn)
